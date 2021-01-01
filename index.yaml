@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  jenkins:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-01T21:53:16.256671752+09:00"
+    description: A Helm chart for Kubernetes
+    digest: a141cee0291ae06f8ee4fb4bfe02798ff2b32df4b4dbbce4301a41ded72dd7f7
+    name: jenkins
+    type: application
+    urls:
+    - jenkins-0.1.0.tgz
+    version: 0.1.0
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-01T19:53:33.724963403+09:00"
+    created: "2021-01-01T21:53:16.257683282+09:00"
     description: A Helm chart for Kubernetes
     digest: 5f974381b76865553185a21aa2b8955de2d210dd7183fd36fab8170f67e1d0b6
     name: mysql
@@ -11,4 +22,4 @@ entries:
     urls:
     - mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-01T19:53:33.724423557+09:00"
+generated: "2021-01-01T21:53:16.255895918+09:00"
