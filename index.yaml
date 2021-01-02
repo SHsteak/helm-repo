@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-02T16:39:50.799765048+09:00"
+    created: "2021-01-02T16:46:49.622327992+09:00"
     description: A Helm chart for Kubernetes
     digest: 70ecec249808e9a60973e1fd7c14d1ff38bf7ffa82d3fade462c53b457f45920
     name: elasticsearch
@@ -14,7 +14,7 @@ entries:
   jenkins:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-02T16:39:50.800168364+09:00"
+    created: "2021-01-02T16:46:49.622730938+09:00"
     description: A Helm chart for Kubernetes
     digest: 2865f4cfbe79c06c24c58de17d73583a0d95aea632fe2dac96fac0cd65dd9bb9
     name: jenkins
@@ -25,18 +25,18 @@ entries:
   kibana:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-02T16:39:50.800669714+09:00"
+    created: "2021-01-02T16:46:49.62316993+09:00"
     description: A Helm chart for Kubernetes
-    digest: 3f53625d26ab1969f3f2b98e4dcad405d0cd95e377331fc3977eacc607eda484
+    digest: d7798e4124b047497ac4f6fdc201df94cc6a88828ede37adc91b26194c627956
     name: kibana
     type: application
     urls:
-    - kibana-0.1.0.tgz
-    version: 0.1.0
+    - kibana-7.9.3.tgz
+    version: 7.9.3
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-02T16:39:50.801104371+09:00"
+    created: "2021-01-02T16:46:49.623552144+09:00"
     description: A Helm chart for Kubernetes
     digest: b99057db6d32c97392765d9b16d17085c7a996c1633f89a57434ddc579f224da
     name: mysql
@@ -44,4 +44,4 @@ entries:
     urls:
     - mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-02T16:39:50.799197455+09:00"
+generated: "2021-01-02T16:46:49.621760652+09:00"
