@@ -31,7 +31,7 @@ helm repo update && helm search repo choshsh
     2. 실행
 
         ```bash
-        helm install choshsh/jenkins --generate-name
+        helm install choshsh/<차트명> --generate-name
         ```
 
         - 옵션
